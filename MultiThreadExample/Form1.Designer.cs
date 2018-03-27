@@ -33,13 +33,15 @@
             this.makeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.con = new System.Windows.Forms.RichTextBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.makeToolStripMenuItem});
+            this.makeToolStripMenuItem,
+            this.testToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(391, 24);
@@ -62,8 +64,12 @@
             this.con.TabIndex = 1;
             this.con.Text = "";
             // 
-            // timer
+            // testToolStripMenuItem
             // 
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.testToolStripMenuItem.Text = "Test";
+            this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -89,6 +95,7 @@
         private System.Windows.Forms.ToolStripMenuItem makeToolStripMenuItem;
         private System.Windows.Forms.RichTextBox con;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
     }
 }
 

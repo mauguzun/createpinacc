@@ -11,3 +11,5 @@ C:\Users\maugu\documents\visual studio 2017\Projects\MultiThreadExample\MultiThr
 C:\Users\maugu\documents\visual studio 2017\Projects\MultiThreadExample\MultiThreadExample\bin\Debug\phantomjs.exe
 C:\Users\maugu\documents\visual studio 2017\Projects\MultiThreadExample\MultiThreadExample\bin\Debug\phantomjs-license.txt
 C:\Users\maugu\documents\visual studio 2017\Projects\MultiThreadExample\MultiThreadExample\obj\Debug\MultiThreadExample.csprojResolveAssemblyReference.cache
+C:\Users\maugu\Documents\Visual Studio 2017\Projects\MultiThreadExample\MultiThreadExample\obj\Debug\MultiThreadExample.csproj.CoreCompileInputs.cache
+C:\Users\maugu\documents\visual studio 2017\Projects\MultiThreadExample\MultiThreadExample\bin\Debug\GetProxy.dll
